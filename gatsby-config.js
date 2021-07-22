@@ -1,8 +1,8 @@
 require('dotenv').config({ 
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.development` 
 })
 
-module.exports = {  
+module.exports = {
   siteMetadata: {
     title: `First Ecommerce Project`,
     description: `Creating first project using Gatsby`,
