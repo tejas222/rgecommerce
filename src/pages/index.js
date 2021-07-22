@@ -7,8 +7,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroSection from "../components/Reusable/HeroSection"
 import Infoblock from "../components/Reusable/Infoblock" 
-import DualInfoblock from "../components/Reusable/Dualinfoblock"
-import CourseCart from "../components/Cart/CourseCart"
+import DualInfoblock from "../components/Reusable/DualInfoblock"
+import CourseCart from "../components/Cart/Coursecart"
 
 
 const IndexPage = ( {data} ) => (
