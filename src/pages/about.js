@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroSection from "../components/Reusable/HeroSection"
 import Infoblock from "../components/Reusable/Infoblock" 
-import DualInfoblock from "../components/Reusable/Dualinfoblock"
+import DualInfoblock from "../components/Reusable/DualInfoblock"
 import Teamsection from "../components/About/Teamsection"
 
 
