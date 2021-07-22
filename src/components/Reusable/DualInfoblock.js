@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from './Heading'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 
 export default function DualInfoblock({heading}) {
     return (
