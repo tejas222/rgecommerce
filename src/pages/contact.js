@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroSection from "../components/Reusable/HeroSection"
 import Infoblock from "../components/Reusable/Infoblock" 
+import Contact from "../components/Contact/contact"
 
 
 
@@ -21,7 +22,7 @@ const ContactPage = ( {data} ) => (
      />
       
       <Infoblock heading="Get in Touch with Us" />
-     
+      <Contact />  
   </Layout>
 )
 
