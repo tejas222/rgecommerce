@@ -1,12 +1,19 @@
 import React from 'react'
 import Heading from "../Reusable/Heading"
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
+
+    const [state, handleSubmit] = useForm("xgerlbal");
+    if (state.succeeded) {
+        return <h3 align="center" className="py-4">Thanks for Contacting Us!</h3>;
+    }
+
     return (
         <section className="py-3">
             <Heading title="Contact Us" />
             <div className="col-10 col-sm-8 mx-auto">
-                <form action="https://formspree.io/f/xgerlbal" method="POST">
+                <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <input type="text" name="name" id="name" className="form-control" placeholder="Enter Your Name" />
                     </div>
