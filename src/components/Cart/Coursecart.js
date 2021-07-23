@@ -45,7 +45,7 @@ export default class CourseCart extends Component {
         return (
             <div>
                  <section className="py-5">
-                    <div className="container">
+                    <div className="container" id="cources">
                         <Heading title="Courses" />
                         <div className="row my-3">
                             <div className="col-10 mx-auto text-center">
