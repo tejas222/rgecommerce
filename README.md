@@ -1,4 +1,4 @@
-Click <a href="https://reactgatsbyecom.netlify.app/contact/">here</a> to open this app 
+Click <a href="https://reactgatsbyecom.netlify.app/" target="_blank">here</a> to open this app 
 
 
 
