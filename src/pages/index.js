@@ -22,7 +22,7 @@ const IndexPage = ( {data} ) => (
      />
       <Infoblock heading="About Us" />
       <CourseCart courses={data.courses} />
-      <DualInfoblock heading="Out Team"/>
+      <DualInfoblock heading="Our Team"/>
   </Layout>
 )
 
