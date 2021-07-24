@@ -10,7 +10,7 @@ const getCaty = items =>{
 
     let holdcategories = new Set(holdItems)
     let categories = Array.from(holdcategories)
-    categories = ["all", ...categories]
+    categories = ["All", ...categories]
     return categories
 }
 
